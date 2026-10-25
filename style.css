@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: papyrus;
+    scroll-behavior: smooth;
+}
+
+/* --------------------Home------------------ */
+
+.header{
+    background: url('anime-eyes-illustration.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: contrast(2);
+    height: 100vh;
+}
+
+.home-gradient{
+    background: linear-gradient(45deg,  rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.308));
+}
+
+span{
+    color: #b10000;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.nav{
+    padding: 2px 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    border-bottom: solid 1px #b10000;
+    color: rgb(255, 255, 255);
+}
+
+.logo h1{
+    color: #f1f1f1;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.list-link{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease-in-out .5s;
+    font-weight: 700;
+}
+
+.nav a:hover{
+    color: #b10000;
+}
+
+.burger{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+.heading{
+    height: 87vh;
+    padding:  50vh 0 4vh 5vw;
+    color: #ffffff;
+}
+
+.heading h1{
+    font-size: 69px;
+    text-shadow: 0 0 5vh  rgb(0, 0, 0);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 2vw;
+    height: 100vh;
+    background: #000000;
+    border-top: 1px solid #b10000;
+    color: #ffffff;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.content .left{
+    margin: 1vh 4vw;
+    padding: 1vh 2vw;
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .right{
+    margin: 0 4vw;
+    padding: 1vh 3vw;
+    height: 70vh;
+    width: 50vw;
+    text-align: center;
+    font-size: 19px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content img{
+    height: 50vh;
+    filter: contrast(3);
+}
+
+.content h1{
+    margin: 2vh;
+    border-bottom: solid 1px #b10000;
+}
+
+.content a{
+    padding: 1vh 5vw;
+    text-decoration: none;
+    border: solid 1px #f1f1f1;
+    border-radius: 95px;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: ease-in-out .5s;
+}
+
+.content a:hover{
+    background: #00000000;
+    border: solid 1px #f1f1f100;
+   box-shadow: 0 0 1vh 0 rgba(192, 0, 0, 0.795);
+    color: #ffffff;
+}
+
+/* ------------------------------About----------------------------- */
+
+.about-gradient{
+    background: linear-gradient(45deg , rgba(255, 255, 255, 0.384), rgba(112, 0, 0, 0.39) );
+}
+
+.about_header{
+    background: url('bg\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: contrast(2);
+    height: 100vh;
+}
+
+.about_heading{
+    height: 87vh;
+    padding:  50vh 0 0 5vw;
+    color: #ffffff;
+}
+
+.about_heading h1{
+    font-size: 69px;
+    text-shadow: 0 0 5vh black;
+}
+
+.about_heading h3{
+    font-size: 19px;
+}
+
+.about_content{
+    background: #000000;
+    border-top: 1px solid #b10000;
+    color: #f1f1f1;
+    height: 100vh;
+}
+
+.about_content h1{
+    text-align: center;
+    justify-self: center;
+    width: 300px;
+    font-weight: 200;
+}
+
+.about_content p{
+    margin: 7px 0;
+    padding: 9px 0;
+    width: 600px;
+    text-align: center;
+    justify-self: center;
+}
+
+.about_container{
+    margin: 1vh 0;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container .self-1{
+    margin: 1vh 3vw;
+    width: 400px;
+    height: 100%;
+    place-items: center;
+    border-radius: 25px;
+    transform: scale(.9);
+    transition: ease-in-out .5s;
+}
+
+.about_container .self-1:hover{
+    background: #b100005e;
+    transform: scale(1.01);
+}
+
+.about_container .self-1 h2{
+    text-align: center;
+}
+
+
+.about_container .self-1 p{
+    border-top: solid 1px red;
+    border-bottom: solid 1px red;
+    text-align: center;
+    width: 300px;
+}
+
+ .self-1 .btn a{
+    padding: 0 27px;
+    text-decoration: none;
+    border: solid 1px #f1f1f1;
+    border-radius: 95px;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: ease-in-out .3s;
+}
+
+.self-1 .btn a:hover{
+    background: #000000;
+    border: solid 1px #f1f1f100;
+   box-shadow: 0 0 1vh 0 rgba(192, 0, 0, 0.795);
+    color: #ffffff;
+}
+
+/* -----------------------------Projects--------------------------------- */
+
+.project_head{
+    padding: 5vh 0;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background: url('uchiha.jpg') center fixed no-repeat;
+    background-size: cover;
+    filter: contrast(3);
+    border-bottom: solid 1px #b10000;
+}
+
+.project_head h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+.project_gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 6vh 2vw;
+    background: #000000;
+    color: #ffffff;
+}
+
+.project_gallery .self-img .img{
+    height:200px;
+    border: solid wheat 2px;
+}
+
+
+
+/* ----------------------------Media Display----------------------- */
+
+@media screen and (max-width:768px){
+
+    body{
+        z-index: 1;
+        width: 100vw;
+    }
+
+   .list-link{
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    height: 100vh;
+    top: 0vh;
+    width: 30%;
+    background: rgb(0, 0, 0);
+    border-left: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+   }
+
+   .burger{
+    display: flex;
+    font-size: 30px;
+   }
+
+   .close{
+    margin-right: 15vw;
+    display: inline;
+    font-size: 30px;
+   }
+
+   .heading{
+    margin-top: 60vh;
+    color: #ffffff;
+    width: 300px;
+   }
+
+   .heading h1{
+    font-size: 35px;
+   }
+
+   .heading h3{
+    display: none;
+   }
+
+   .content{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    height: fit-content;
+    justify-content: space-around;
+    place-items: center;
+  }
+
+  .content .right{
+    margin: 1vh 4vw;
+    padding: 1vh 3vw;
+    text-align: center;
+    font-size: 18px;
+    width: 600px;
+    justify-content: space-around;
+  }
+
+  .content img{
+    height: 35vh;
+  }
+
+  .content a{
+    padding: 5px 50px;
+  }
+
+
+
+
+}
